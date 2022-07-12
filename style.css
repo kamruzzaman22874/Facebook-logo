@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-color: #F0F2F5;
+}
+section{
+    display: flex;
+    
+}
+.facebook{
+    position: relative;
+    top: 250px;
+    left: 300px;
+    
+}
+.facebook-1{
+    position: relative;
+    left: 350px;
+    top: 120px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 10px 3px rgba(0,0,0,0.75);
+    height: 370px;
+    width: 420px;
+    padding: 35px; 
+    width: 450px; 
+    background-color: white;
+}
+.facebook-1 input{
+    font-size: 17px;
+    padding: 15px;
+    width: 359px;
+    border-radius: 8px;
+    border:1px solid aquamarine;
+    background: white;
+}
+.facebook-1 input:hover{
+    border: 1px solid #1877F2;
+}
+.btn{
+    position: relative;
+    padding: 15px;
+    width: 359px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    top: 10px;
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;  
+}
+.forgot-password{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    left: 110px;
+    font-size: 18px;
+    color: #1877F4;
+    text-decoration: none;
+}
+.new-account{
+    position: relative;
+    top: 70px;
+    left: 85px;
+    text-decoration: none;
+    background-color: #36A420;
+    padding: 15px;
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+hr{
+    position: relative;
+    top: 40px;
+}
+.facebook h1{
+    color: #1877F2;
+    font-size: 40px;
+    font-family: inherit;   
+}
+.facebook p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.footer{
+    position: relative;
+    top: 510px;
+    left: -35px;
+    
+}
+.footer b{
+    text-decoration: none;
+}
